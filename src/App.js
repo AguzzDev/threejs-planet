@@ -27,20 +27,17 @@ function App() {
         <Html
           style={{
             position: "fixed",
-            width: "100vw",
             height: "50vh",
-            left: "0%",
+            width: "max-content",
+            left: "-50vw",
             bottom: 0,
           }}
         >
           <div
             style={{
-              position: "absolute",
-              top: 0,
-              right: "50%",
+              userSelect: "none",
               width: "200px",
-              marginTop: "15px",
-              marginRight: "15px",
+              padding: "15px",
             }}
           >
             <h1>Set Coordinate</h1>
